@@ -10,12 +10,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // 이미지 최적화 비활성화
   },  
-  experimental: {
-    serverActions: {
-      bodySizeLimit: '1mb', // 허용되는 최대 요청 본문 크기 (예: 1MB)
-      allowedOrigins: ['*'], // 허용되는 클라이언트 도메인 (예: 모든 도메인 허용)
-    },
-  },
 }
 
 export default nextConfig
