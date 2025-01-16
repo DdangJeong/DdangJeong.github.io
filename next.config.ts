@@ -15,6 +15,7 @@ const nextConfig: NextConfig = {
       bodySizeLimit: '1mb', // 허용되는 최대 요청 본문 크기 (예: 1MB)
       allowedOrigins: ['*'], // 허용되는 클라이언트 도메인 (예: 모든 도메인 허용)
     },
+  },
 }
 
 export default nextConfig
